@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetWebForms", "ASPNetWebForms\ASPNetWebForms.csproj", "{996ECA0A-3709-4F16-9365-74EB19ED3C85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetWebForms.Tests", "ASPNetWebForms.Tests\ASPNetWebForms.Tests.csproj", "{49A77017-4314-45EB-8802-697AE1F7DF08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996ECA0A-3709-4F16-9365-74EB19ED3C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996ECA0A-3709-4F16-9365-74EB19ED3C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996ECA0A-3709-4F16-9365-74EB19ED3C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996ECA0A-3709-4F16-9365-74EB19ED3C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A77017-4314-45EB-8802-697AE1F7DF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A77017-4314-45EB-8802-697AE1F7DF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A77017-4314-45EB-8802-697AE1F7DF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A77017-4314-45EB-8802-697AE1F7DF08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B574EC55-357E-485F-A1B3-C70EB87BC123}
+	EndGlobalSection
+EndGlobal
