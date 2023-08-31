@@ -21,16 +21,16 @@ namespace ASPNetWebForms
                 product.Id = 0;
                 product.Name = txtName.Text;
                 product.Description = txtDescription.Text;
-                ProductContext.ProductsList.Add(product);
+               // ProductContext.ProductsList.Add(product);
             } else
             {
                 var idProduct = idProdutoUrl != null ? idProdutoUrl : 0;
                 // var product = ProductContext.ProductsList.Find(p => p.Id.Equals(idProdutoUrl));
-                var product = ProductContext.ProductsList.Find(p => p.Id.Equals(idProduct));
+                /*var product = ProductContext.ProductsList.Find(p => p.Id.Equals(idProduct));
                 product.Id = product.Id ;
                 product.Name = txtName.Text;
                 product.Description = txtDescription.Text;
-                ProductContext.ProductsList.Add(product);
+               // ProductContext.ProductsList.Add(product);*/
             }
 
         }

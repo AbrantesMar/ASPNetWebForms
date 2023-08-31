@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 
 namespace ASPNetWebForms.Model
 {
-    public class ProductContext //: DbContext
+    public class ProductContext : DbContext
     {
-        public Category Categories { get; set; }
-        public Product Products { get; set; }
-        public CartItem ShoppingCartItems { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
+        //public DbSet<CartItem> ShoppingCartItems { get; set; }
 
-        public static List<Product> ProductsList { get; set; }
-        public static List<Category> CategoriesList { get; set; }
-
-        public ProductContext()
+        public ProductContext() : base("DBTreinamentoEntity")
         {
-            //public DbSet<Category> Categories { get; set; }
-            
+
 
 
         }

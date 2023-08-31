@@ -44,12 +44,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -107,8 +111,9 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AddToCart.aspx" />
+    <Content Include="Scripts\AulaJs.js" />
+    <Content Include="View\Category\Create.aspx" />
     <Content Include="View\Product\AdicionarProdutos.aspx" />
-    <Content Include="View\Category\CadastroDeCategorias.aspx" />
     <Content Include="View\Category\Categorias.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -178,6 +183,14 @@
     <Compile Include="AddToCart.aspx.designer.cs">
       <DependentUpon>AddToCart.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Model\ProductDatabaseInitializer.cs" />
+    <Compile Include="View\Category\Create.aspx.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Category\Create.aspx.designer.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\Product\AdicionarProdutos.aspx.cs">
       <DependentUpon>AdicionarProdutos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -194,13 +207,6 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="View\Category\CadastroDeCategorias.aspx.cs">
-      <DependentUpon>CadastroDeCategorias.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="View\Category\CadastroDeCategorias.aspx.designer.cs">
-      <DependentUpon>CadastroDeCategorias.aspx</DependentUpon>
-    </Compile>
     <Compile Include="View\Category\Categorias.aspx.cs">
       <DependentUpon>Categorias.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

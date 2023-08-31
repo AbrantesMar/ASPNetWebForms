@@ -10,8 +10,8 @@ namespace ASPNetWebForms
         public List<Product> Products;
         protected void Page_Load(object sender, EventArgs e)
         {
-            Products = ProductContext.ProductsList;
-            grdProducts.DataSource = Products;
+            //Products = ProductContext.ProductsList;
+            //grdProducts.DataSource = Products;
         }
     }
 }

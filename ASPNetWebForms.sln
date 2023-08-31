@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetWebForms", "ASPNetWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetWebForms.Tests", "ASPNetWebForms.Tests\ASPNetWebForms.Tests.csproj", "{49A77017-4314-45EB-8802-697AE1F7DF08}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{81154DEA-1EDB-4A88-9310-9ADD04F47F38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{0E7E2B73-9807-433E-B6CE-5BC830E4EC60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{315D7A14-0FF8-43D4-9EA5-BB19CA5640D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

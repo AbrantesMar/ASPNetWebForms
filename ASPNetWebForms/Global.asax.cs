@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ASPNetWebForms.Model;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Optimization;
@@ -16,6 +18,9 @@ namespace ASPNetWebForms
             // Código que é executado na inicialização do aplicativo
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            // Initialize the product database.
+            Database.SetInitializer(new ProductDatabaseInitializer());
         }
     }
 }

@@ -723,3 +723,20 @@ p {
             #footnote .connect a.pinterest {
                 background-position: 0 -196px;
             }
+table {
+    width: 801px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    background-color: silver;
+}
+
+th {
+    width: 300px;
+}
+
+.azul {
+    background-color: blue;
+}

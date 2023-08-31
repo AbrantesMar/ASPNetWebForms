@@ -6,7 +6,7 @@ using System.Web;
 
 namespace ASPNetWebForms.Model
 {
-    public class ShoppingCartActions//: //IDisposable
+    public class ShoppingCartActions//: IDisposable
     {
         public string ShoppingCartId { get; set; }
 
@@ -31,7 +31,7 @@ namespace ASPNetWebForms.Model
                     ProductId = id,
                     CartId = ShoppingCartId,
                     Product = _db.Products.SingleOrDefault(
-                   p => p.ProductID == id),
+                   p => p.Id == id),
                     Quantity = 1,
                     DateCreated = DateTime.Now
                 };
