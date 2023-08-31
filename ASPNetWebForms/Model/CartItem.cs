@@ -14,6 +14,8 @@ namespace ASPNetWebForms.Model
 
         public int ProductId { get; set; }
 
+        public int interval { get; set; }
+
         public virtual Product Product { get; set; }
     }
 }
